@@ -2,7 +2,7 @@ import pandas as pd
 import numpy as np
 from app_store_scraper import AppStore
 
-data = AppStore(country='id', app_name='LinkedIn: Job Search & News', app_id = '288429040')
+data = AppStore(country='us', app_name='LinkedIn: Job Search & News', app_id = '288429040')
 
 data.review(how_many=100)
 
